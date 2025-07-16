@@ -1,1 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filmography | Pulindu Pansilu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Outfit', sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: #e0e0e0;
+    }
+    header {
+      padding: 60px 20px 30px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid #2c2c2c;
+    }
+    .profile-photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #1db954;
+      object-fit: cover;
+      margin-bottom: 20px;
+      box-shadow: 0 0 15px rgba(29, 185, 84, 0.4);
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      background-color: #121212;
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+    nav a:hover {
+      color: #1db954;
+      text-shadow: 0 0 10px #1db954;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #1db954;
+      font-size: 2.5rem;
+      text-shadow: 0 0 10px rgba(29, 185, 84, 0.5);
+    }
+    .intro {
+      font-size: 1.1rem;
+      color: #ccc;
+      margin-top: 20px;
+    }
+    .project-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .project video {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+    .project h3 {
+      margin-top: 10px;
+      color: #1db954;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+      background-color: #0e0e0e;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="profile-container">
+      <img src="assets/profile.jpg" alt="Profile Photo" class="profile-photo">
+      <h1>Pulindu Pansilu</h1>
+      <p>Writer | Editor | Director | Creative Genius</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="filmography.html">Filmography</a>
+    <a href="editing.html">Editing Showcase</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section>
+    <h2>Filmography</h2>
+    <div class="intro">
+      <p>Here are the short films I’ve directed. Each one represents a journey into emotion, concept, and cinematic craft.</p>
+    </div>
+
+    <div class="project-grid">
+      <div class="project">
+        <video controls poster="assets/film1-thumb.jpg">
+          <source src="assets/film1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <h3>Unfinished Prayer</h3>
+        <p>A short film exploring grief and the spiritual unknown.</p>
+      </div>
+      <!-- Add more film entries as needed -->
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Pulindu Pansilu. All rights reserved. | Built by a Creative Genius.</p>
+  </footer>
+</body>
+</html>
 <!-- placeholder for filmography.html -->

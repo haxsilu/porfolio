@@ -6,6 +6,93 @@
   <title>Pulindu Pansilu | Home</title>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Outfit', sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: #e0e0e0;
+    }
+    header {
+      padding: 60px 20px 30px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid #2c2c2c;
+    }
+    .profile-photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #1db954;
+      object-fit: cover;
+      margin-bottom: 20px;
+      box-shadow: 0 0 15px rgba(29, 185, 84, 0.4);
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      background-color: #121212;
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+    nav a:hover {
+      color: #1db954;
+      text-shadow: 0 0 10px #1db954;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #1db954;
+      font-size: 2.5rem;
+      text-shadow: 0 0 10px rgba(29, 185, 84, 0.5);
+    }
+    .intro {
+      font-size: 1.1rem;
+      color: #ccc;
+      margin-top: 20px;
+    }
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+    .social-links a {
+      color: #1db954;
+      text-decoration: none;
+      padding: 10px 16px;
+      border: 1px solid #1db954;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+    .social-links a:hover {
+      background: #1db954;
+      color: #000;
+      box-shadow: 0 0 15px #1db954;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+      background-color: #0e0e0e;
+      margin-top: 60px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -26,7 +113,13 @@
   <section id="home">
     <h2>About Me</h2>
     <div class="intro">
-      <p>Hi, I’m Pulindu Pansilu — a multidisciplinary filmmaker who thrives on crafting powerful visual stories. With a deep-rooted passion for storytelling, I’ve directed thought-provoking short films, edited impactful commercial content, and written scripts that challenge conventions. I believe in pushing creative boundaries and bringing raw ideas to life through bold visuals and authentic emotion. This is not just a portfolio, it’s a reflection of a creative genius at work.</p>
+      <p>
+        Hi, I’m Pulindu Pansilu — a multidisciplinary filmmaker who thrives on crafting powerful visual stories.
+        With a deep-rooted passion for storytelling, I’ve directed thought-provoking short films, edited impactful
+        commercial content, and written scripts that challenge conventions. I believe in pushing creative boundaries
+        and bringing raw ideas to life through bold visuals and authentic emotion. This is not just a portfolio,
+        it’s a reflection of a creative genius at work.
+      </p>
       <div class="social-links">
         <a href="mailto:your.email@example.com">Email</a>
         <a href="https://www.instagram.com/yourhandle" target="_blank">Instagram</a>
